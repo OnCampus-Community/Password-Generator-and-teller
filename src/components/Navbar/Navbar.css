@@ -1,0 +1,18 @@
+
+.navbar {
+    width: 100% !important;
+    height: 50px !important;
+    background-color: rgb(6, 55, 88);
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+
+}
+
+.nav-ele {
+    align-items: center;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    padding-top: 10px;
+    color:aliceblue
+}

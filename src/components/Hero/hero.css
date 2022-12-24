@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Kannada:wght@700&display=swap');
+
+
+.jumbotron {
+    width: 1250px;
+    height: 10pc;
+    background-color: #C8DBBE;
+    align-content: center !important;
+    margin: 0px auto;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Noto Serif Kannada', serif;
+    font-size: 5rem;
+    border-radius: 20px;
+}
+
+.hero-title {
+    padding-top: 1.5pc;
+}
+
+@media only screen and (max-width: 600px) {
+    .jumbotron {
+        font-size: 20px;
+        width: auto;
+        height: auto;
+    }
+    .hero-title {
+        padding-top: 10px;
+    }
+}
