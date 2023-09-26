@@ -2,6 +2,9 @@ body {
   margin: 0px;
   background: #282A3A;
   overflow-y: auto;
+  background-image: url(./image/img1.avif);
+  background-repeat: no-repeat;
+  background-size: 100% 800px;
 }
 
 #meter {
@@ -11,6 +14,7 @@ body {
   border: 0ch;
   border-bottom: 5px solid blue;
   outline: none;
+  cursor: pointer;
 }
 
 .error {
@@ -33,6 +37,9 @@ body {
   align-items: center;
   text-align: center;
   margin-top: 90px;
+}
+input{
+  color: azure;
 }
 
 .password-strength-meter {
