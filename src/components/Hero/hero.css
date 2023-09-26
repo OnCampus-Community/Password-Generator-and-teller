@@ -13,7 +13,12 @@
     font-size: 5rem;
     border-radius: 20px;
 }
+.jumbotron:hover {
 
+    background-color: black;
+    color: #C8DBBE;
+  
+}
 .hero-title {
     padding-top: 1.5pc;
 }
