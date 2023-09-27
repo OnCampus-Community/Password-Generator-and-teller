@@ -2,7 +2,7 @@ body {
   margin: 0px;
   background: #282A3A;
   overflow-y: auto;
-  background-image: url(./image/img1.avif);
+  background-image: url(./image/img1.png);
   background-repeat: no-repeat;
   background-size: 100% 800px;
 }
