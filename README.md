@@ -22,7 +22,6 @@ Use to check your password strength by checking wheather your password has this 
 ![Screenshot 2023-09-29 205111](https://github.com/Mehra-Jatin/Password-Generator-and-teller/assets/145798017/bd5ecc3f-7ec9-4e5a-90aa-0c8ce3307ec9)
 
 
-
 # Running it locally 🌟
 ```git
 $ cd password-generator

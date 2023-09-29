@@ -3,6 +3,10 @@ body {
   margin: 0px;
   background-color: #2a2a2a;
   overflow-y: auto;
+  background-image: url(./image/img1.png);
+  background-repeat: no-repeat;
+  background-size: 100% 800px;
+
 }
 
 #meter {
