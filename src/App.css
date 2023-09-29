@@ -1,10 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100&display=swap');
 body {
   margin: 0px;
-  background: #282A3A;
+  background-color: #2a2a2a;
   overflow-y: auto;
-  background-image: url(./image/img1.avif);
-  background-repeat: no-repeat;
-  background-size: 100% 800px;
 }
 
 #meter {
@@ -19,7 +17,8 @@ body {
 
 .error {
   color: white;
-  font-size: 30px;
+  font-size: 24px;
+  font-family: 'Martian Mono', monospace;
 }
 
 #perfect {
@@ -27,19 +26,43 @@ body {
   color:white;
   text-align: center;
   align-items: center;
-  margin: 0px auto;
+  margin: 0px;
+  position: relative;
+  bottom: 140px;
   transition: all;
   padding-bottom: 100px !important;
 
 }
+.form-wrapper{
+  width: 90%;
+  height: 80%;
+  margin: auto;
+  padding-top: 1px;
+}
 
+.form-jumbo{
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 20px;
+  background-color: rgba(0,0,0,0.2);;
+  width: 600px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  box-shadow: -3px -3px 9px #aaa9a9a2,
+               3px  3px 7px  rgba(147,149,151,0.671);
+}
 .form-ele {
   align-items: center;
   text-align: center;
-  margin-top: 90px;
+
 }
 input{
   color: azure;
+  text-align: center;
+}
+input::placeholder{
+  text-align: center;
 }
 
 .password-strength-meter {

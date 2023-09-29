@@ -4,23 +4,20 @@
 .jumbotron {
     width: 1250px;
     height: 10pc;
-    background-color: #C8DBBE;
+    background-color: #2a2a2a;
     align-content: center !important;
     margin: 0px auto;
-    margin-top: 20px;
+    margin-top: 80px;
     text-align: center;
     font-family: 'Noto Serif Kannada', serif;
     font-size: 5rem;
+    border: 1px solid white;
     border-radius: 20px;
 }
-.jumbotron:hover {
 
-    background-color: black;
-    color: #C8DBBE;
-  
-}
 .hero-title {
     padding-top: 1.5pc;
+    color: white;
 }
 
 @media only screen and (max-width: 600px) {
