@@ -18,7 +18,8 @@ Use to check your password strength by checking wheather your password has this 
 
 
 # Screen-shot
-![readme](https://github.com/Mehra-Jatin/Password-Generator-and-teller/assets/145798017/f099624e-63ea-4993-ad4e-728acf5c4f46)
+
+![Screenshot 2023-09-29 205111](https://github.com/Mehra-Jatin/Password-Generator-and-teller/assets/145798017/bd5ecc3f-7ec9-4e5a-90aa-0c8ce3307ec9)
 
 
 # Running it locally 🌟

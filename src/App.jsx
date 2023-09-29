@@ -49,7 +49,8 @@ export default function App() {
       <Navbar></Navbar>
       <Hero></Hero>
       <div className="form-jumbo">
-      <form className='form-ele'>
+        <div className="form-wrapper">
+        <div className='input'><form className='form-ele'>
         <input
           onFocus={() => setMeter(true)}
           onChange={(e) => setPassword(e.target.value)}
@@ -60,8 +61,9 @@ export default function App() {
           id="meter"
           autoComplete=''
         />
+      
         {meter && (
-          <div>
+          <div className=''>
             <div className="password-strength-meter" id="password-meter"></div>
             <div className='error'>
               {passwordStrength < 5 && 'Your Password missing '}
@@ -76,6 +78,9 @@ export default function App() {
         )}
 
       </form>
+      </div>
+        </div>
+      
       </div>
       <center><span id="perfect"></span></center>
       <style jsx>

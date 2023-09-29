@@ -2,7 +2,7 @@
 .navbar {
     width: 100% !important;
     height: 50px !important;
-    background-color: rgb(6, 55, 88);
+    background-color:black;
     border-bottom-left-radius: 70px;
     border-bottom-right-radius: 70px;
     display: flex;
@@ -22,11 +22,13 @@
 .dropdown {
     position: relative;
     display: inline-block;
-    
+    font-size: larger;
+    font-weight: bolder;
+    align-items: center;
 }
 
 .dropbtn {
-    background-color: rgb(6, 55, 88);
+    background-color: black;
     color: aliceblue;
     border: none;
     padding: 10px 20px;
@@ -38,7 +40,7 @@
     
     display: none;
     position: absolute;
-    background-color: rgb(6, 55, 88);
+    background-color:#444;
     min-width: 250px;
     z-index: 1;
 }
